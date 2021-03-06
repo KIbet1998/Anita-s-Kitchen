@@ -1,0 +1,9 @@
+.image1{
+    background-image:url("Images/landing.jpg");
+    background-size: cover;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+}
