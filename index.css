@@ -111,3 +111,9 @@
       
 
   }
+  .subscribe{
+      background-image: url("Images/subscribe.jpg");
+      background-size: contain;
+      height: 400px;
+      background-repeat: no-repeat;
+  }
