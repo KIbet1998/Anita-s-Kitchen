@@ -1,12 +1,67 @@
 .image1{
     background-image:url("Images/landing.jpg");
     background-size: cover;
-    height: 350px;
-    margin: auto;
-    padding: 20px;
-    border: 2px solid white;
+    height: 400px;
+    margin: 10px;
+    padding: 30px;
     background-repeat: no-repeat;
 }
 .logo{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    margin: 2px;
+}
+.Happy{
+    color: black;
+    background-color: beige;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: 1200px;
+}
+.Party{
+    background-color: #F15A29;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    width: 1200px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.one{
+    height: 200px;
+}
+.two{
+    background-image: url("Images/breakfast.jpg");
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+
+}
+.three{
+    background-image: url("Images/lunch.jpg");
+    height: 200px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.four{
+    background-image: url("Images/dinner.jpg");
+    height: 200px;
+    background-size: cover;
+    color: white;
     text-align: center;
 }
