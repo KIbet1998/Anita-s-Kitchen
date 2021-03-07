@@ -65,3 +65,15 @@
     color: white;
     text-align: center;
 }
+.column-split{
+    float: left;
+    width: 50%;
+}
+.Bhajia{
+    height: 400px;
+    background-color: orange;
+}
+.Kebab{
+    height: 400px;
+    background-color: brown;
+}
