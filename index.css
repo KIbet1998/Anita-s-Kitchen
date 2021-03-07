@@ -78,8 +78,36 @@
     background-size: cover;
     height: 400px;
     width: 1200px;
+    background-color: white;
 
 }
 .Fast-Food{
     background-color: white;
 }
+.chicken.beef.pizza{
+    flex-direction: column-reverse;
+    background-color: white;
+}
+.column {
+    float: left;
+    width: 25%;
+    
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column one{
+      color: #F15A29;
+  }
+  .foot{
+      background-color: #F15A29;
+      color: white;
+      text-align: center;
+      padding: none;
+      
+      
+
+  }
